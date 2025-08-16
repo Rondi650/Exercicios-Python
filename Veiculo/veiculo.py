@@ -15,6 +15,5 @@ class Veiculo(ABC):
     def listar(cls):
         for v in cls.veiculos:
             print(f'{v}')
-            
 
 

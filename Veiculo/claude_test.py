@@ -9,6 +9,7 @@ class Veiculo(ABC):
         self._modelo = modelo
         print(f">>> Fazendo append do objeto na lista...")
         Veiculo.veiculos.append(self)
+        print(Veiculo.veiculos)
         print(f">>> Append concluído. Lista agora tem {len(Veiculo.veiculos)} itens")
         print(f">>> Nenhum __str__ foi chamado ainda!\n")
         
